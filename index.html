@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+  <meta name="theme-color" content="#eeeeee">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="mobile-web-app-capable" content="yes">
+
+  <link rel="apple-touch-icon" href="img/webapp-icon.png">
+  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+  <title>Kalender</title>
+
+  <!-- css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+  <div class="container">
+    <div class="section">
+      <div class="buttons has-addons is-centered">
+        <span class="button" id="prev-btn"><i class="fas fa-long-arrow-alt-left"></i></span>
+        <span class="button" id="month-year"></span>
+        <span class="button" id="next-btn"><i class="fas fa-long-arrow-alt-right"></i></span>
+      </div>
+      <table class="table is-bordered is-striped is-fullwidth">
+        <tbody id="days">
+        </tbody>
+      </table><!-- end table -->
+    </div><!-- end section -->
+  </div><!-- end container -->
+
+  <!-- js -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
