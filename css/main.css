@@ -19,7 +19,7 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 .container {margin-top: -30px;}
-.is-current {background-color: rgba(50, 50, 50, 0.4) !important; color: #fff;}
+.is-current {background-color: rgba(71, 183, 220, 0.8) !important; color: #fff;}
 
 .button {
   background-color: rgba(255, 255, 255, 0.8);
