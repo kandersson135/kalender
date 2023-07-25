@@ -52,12 +52,10 @@ $(document).ready(function() {
     $("td:contains('Sön')").css("color", "#F70B17").prev('td').css("color", "#F70B17");
 
     // Scroll to todays date
-    /*
     $('html, body').animate({
       //scrollTop: $('.is-selected').offset().top
-      scrollTop: $('.is-selected').prev('tr').offset().top
+      scrollTop: $('.is-current').prev('tr').offset().top
     }, 'slow');
-    */
   }
 
   function loadCurrentDate() {
