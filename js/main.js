@@ -95,6 +95,14 @@ $(document).ready(function() {
     if (shouldRemove) {
       localStorage.removeItem(date);
       updateCalendar();
+
+      $.toast({
+        text: 'Händelsen är borttagen',
+        loader: false,
+        allowToastClose: false,
+        position: 'bottom-center',
+        textAlign: 'center'
+      });
     }
   });
 
@@ -104,6 +112,14 @@ $(document).ready(function() {
     if (notification !== null) {
       localStorage.setItem(date, notification);
       updateCalendar();
+
+      $.toast({
+        text: 'Händelsen är tillagd',
+        loader: false,
+        allowToastClose: false,
+        position: 'bottom-center',
+        textAlign: 'center'
+      });
     }
   });
 
