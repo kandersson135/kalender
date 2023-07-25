@@ -18,28 +18,27 @@ body {
   );
   font-family: 'Open Sans', sans-serif;
 }
+
 .container {margin-top: -30px;}
-.is-current {background-color: rgba(255, 119, 188, 0.5) !important; color: #fff;}
+.is-current {background-color: rgba(71, 183, 220, 0.6) !important; color: #fff;}
 
 .button {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(255, 255, 255, 0.8);
-  box-shadow: 0px 4px rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.6);
 }
 
 .button:active,
-.button:hover {border-color: rgba(255, 255, 255, 0.8);}
+.button:hover {border-color: rgba(255, 255, 255, 0.6);}
 
 .table {
-  background-color: rgba(255, 255, 255, 0.85);
-  border: 1px solid rgba(255, 255, 255, 0.85);
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(242, 112, 156, 0.8);
   border-collapse: inherit;
   border-radius: 5px;
-  box-shadow: 1px 1px rgba(255, 255, 255, 0.85), 2px 2px rgba(255, 255, 255, 0.85), 3px 3px rgba(255, 255, 255, 0.85), 4px 4px rgba(255, 255, 255, 0.85);
 }
 
-.table td {border-color: rgba(100, 100, 100, 0.1);}
+.table td {border-color: rgba(100, 100, 100, 0.2);}
 
 tr:nth-child(2n) {
-  background-color: 255, 255, 255, 0.9 !important;
+  background-color: 255, 255, 255, 1 !important;
 }
