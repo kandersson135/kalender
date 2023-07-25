@@ -18,7 +18,6 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-.container {margin-top: -30px;}
 .is-current {background-color: rgba(71, 183, 220, 0.6) !important; color: #fff;}
 
 .button {
@@ -38,6 +37,6 @@ body {
 
 .table td {border-color: rgba(100, 100, 100, 0.2);}
 
-tr:nth-child(2n) {
-  background-color: 255, 255, 255, 1 !important;
-}
+tr:nth-child(2n) {background-color: 255, 255, 255, 1 !important;}
+
+.section {padding: 10px;}
